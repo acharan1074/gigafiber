@@ -95,7 +95,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-blue-300 font-semibold">Email</p>
-                  <span className="font-medium">acharan1074@gmail.com</span>
+                  <span className="font-medium">vgigafibernet@gmail.com</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
