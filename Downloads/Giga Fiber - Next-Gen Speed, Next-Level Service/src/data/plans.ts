@@ -112,6 +112,7 @@ export const companyInfo = {
   partner: "BSNL Authorized Partner - BSNL FTTH (Fiber to the Home)",
   phone: "99480 46456",
   whatsapp: "9948046456",
+  email: "vgigafibernet@gmail.com",
   office: "13-83/3, BSNL Office, Opposite Joginath Road, Jogipet",
   city: "Jogipet",
 };

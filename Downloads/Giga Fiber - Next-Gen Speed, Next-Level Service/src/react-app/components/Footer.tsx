@@ -95,7 +95,9 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-blue-300 font-semibold">Email</p>
-                  <span className="font-medium">support@gigafiber.in</span>
+                  <a href={`mailto:${companyInfo.email}`} className="font-medium text-white hover:text-[#FF6B35] transition-colors">
+                    {companyInfo.email}
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">

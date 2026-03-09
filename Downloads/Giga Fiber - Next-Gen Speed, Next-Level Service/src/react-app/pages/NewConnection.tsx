@@ -415,7 +415,7 @@ export default function NewConnectionPage() {
                     <div className="text-center">
                       <p className="font-semibold">{plan.name}</p>
                       <p className="text-accent font-bold text-lg">{plan.speed}</p>
-                      <p className="text-sm text-muted-foreground">${plan.price}/mo</p>
+                      <p className="text-sm text-muted-foreground">{plan.price}/mo</p>
                     </div>
                     {formData.selectedPlan === plan.id && (
                       <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-accent flex items-center justify-center">
