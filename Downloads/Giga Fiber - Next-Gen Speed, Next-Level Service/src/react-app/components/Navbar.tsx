@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/react-app/components/ui/button";
-import { companyInfo } from "@/data/plans";
 
 const navLinks = [
   { name: "Home", path: "/" },
