@@ -27,7 +27,13 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#003DA5] via-[#003DA5] to-[#003DA5] shadow-2xl border-b-4 border-[#FF6B35]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Brand - Removed text */}
+          <Link to="/" className="flex items-center group">
+            <img
+              src="/logo.jpg"
+              alt="Giga Fiber Logo"
+              className="h-12 w-auto transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+            />
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
