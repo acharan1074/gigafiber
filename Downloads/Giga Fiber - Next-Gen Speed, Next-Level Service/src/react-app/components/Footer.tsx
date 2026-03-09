@@ -9,16 +9,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#FF6B35] to-[#FFB81C] flex items-center justify-center">
-                <img src="/giga-fiber-logo.svg" alt="Giga Fiber" className="w-10 h-10" />
-              </div>
-              <div>
-                <span className="text-xl font-black">
-                  <span className="text-[#FF6B35]">GIGA</span> <span className="text-[#FFB81C]">FIBER</span>
-                </span>
-                <p className="text-xs text-blue-300">{companyInfo.tagline}</p>
-              </div>
+            <div>
+              <span className="text-xl font-black text-white">
+                {companyInfo.name}
+              </span>
+              <p className="text-xs text-blue-300">{companyInfo.tagline}</p>
             </div>
             <p className="text-blue-200 text-sm leading-relaxed">
               {companyInfo.partner}. Delivering high-speed fiber internet to homes and businesses.
