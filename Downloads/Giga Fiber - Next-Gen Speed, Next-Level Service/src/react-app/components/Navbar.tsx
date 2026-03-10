@@ -29,9 +29,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center group">
             <img
-              src="/giga-fiber-logo-new.png"
+              src="/giga-fiber-logo.png"
               alt="Giga Fiber Logo"
-              className="h-14 w-auto transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+              className="h-16 w-auto transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               style={{ background: "transparent" }}
             />
           </Link>
